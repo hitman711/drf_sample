@@ -1,0 +1,92 @@
+[
+  {
+    "model": "crud.answer",
+    "pk": 1,
+    "fields": {
+      "body": "Test",
+      "question": 1,
+      "user": 1
+    }
+  },
+  {
+    "model": "crud.answer",
+    "pk": 2,
+    "fields": {
+      "body": "2:3",
+      "question": 2,
+      "user": 1
+    }
+  },
+  {
+    "model": "crud.answer",
+    "pk": 3,
+    "fields": {
+      "body": "3:5",
+      "question": 2,
+      "user": 2
+    }
+  },
+  {
+    "model": "crud.answer",
+    "pk": 4,
+    "fields": {
+      "body": "Only the first stanza",
+      "question": 3,
+      "user": 1
+    }
+  },
+  {
+    "model": "crud.answer",
+    "pk": 5,
+    "fields": {
+      "body": "First and Second stanza",
+      "question": 3,
+      "user": 2
+    }
+  },
+  {
+    "model": "crud.answer",
+    "pk": 6,
+    "fields": {
+      "body": "Third and Fourth stanza",
+      "question": 3,
+      "user": 3
+    }
+  },
+  {
+    "model": "crud.answer",
+    "pk": 7,
+    "fields": {
+      "body": "Bharat Muni",
+      "question": 4,
+      "user": 1
+    }
+  },
+  {
+    "model": "crud.answer",
+    "pk": 8,
+    "fields": {
+      "body": "Abhinav Gupt",
+      "question": 4,
+      "user": 3
+    }
+  },
+  {
+    "model": "crud.answer",
+    "pk": 9,
+    "fields": {
+      "body": "Maharashtra",
+      "question": 5,
+      "user": 1
+    }
+  },
+  {
+    "model": "crud.answer",
+    "pk": 10,
+    "fields": {
+      "body": "Gujarat",
+      "question": 5,
+      "user": 2
+    }
+  }
+]

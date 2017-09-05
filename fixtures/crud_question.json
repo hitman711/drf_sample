@@ -1,0 +1,68 @@
+[
+  {
+    "model": "crud.question",
+    "pk": 1,
+    "fields": {
+      "title": "Tell me your pet name?",
+      "private": true,
+      "user": 2
+    }
+  },
+  {
+    "model": "crud.question",
+    "pk": 2,
+    "fields": {
+      "title": "The ratio of width of our National flag to its length is",
+      "private": false,
+      "user": 1
+    }
+  },
+  {
+    "model": "crud.question",
+    "pk": 3,
+    "fields": {
+      "title": "Rabindranath Tagore's 'Jana Gana Mana' has been adopted as India's National Anthem. How many stanzas of the said song were adopted?",
+      "private": false,
+      "user": 1
+    }
+  },
+  {
+    "model": "crud.question",
+    "pk": 4,
+    "fields": {
+      "title": "'Natya - Shastra' the main source of India's classical dances was written by",
+      "private": false,
+      "user": 1
+    }
+  },
+  {
+    "model": "crud.question",
+    "pk": 5,
+    "fields": {
+      "title": "'Dandia' is a popular dance of",
+      "private": false,
+      "user": 2
+    }
+  },
+  {
+    "model": "crud.question",
+    "pk": 6,
+    "fields": {
+      "title": "'Dandia' is a popular dance of",
+      "private": false,
+      "user": 2
+    }
+  },
+  {
+    "model": "crud.question",
+    "pk": 7,
+    "fields": {
+      "title": "The words 'Satyameva Jayate' inscribed below the base plate of the emblem of India are taken from",
+      "private": false,
+      "user": 2
+    }
+  }
+
+]
+
+
