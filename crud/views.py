@@ -10,11 +10,13 @@ from django.contrib.auth.models import User
 
 from . import serializers, filters, authentication, models
 # Create your views here.
+from .throttling import CustomThrottle
 
 class QuestionViews(generics.ListAPIView):
     """
     View the list of questions records
     """
+    throttle_classes = (CustomThrottle,)
     authentication_classes = (authentication.TenantAuthentication,)
     serializer_class = serializers.QuestionSerializer
     model_class = serializer_class.Meta.model

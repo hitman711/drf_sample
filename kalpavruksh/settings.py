@@ -128,13 +128,8 @@ REST_FRAMEWORK = {
     'DEFAULT_AUTHENTICATION_CLASSES': (
         'crud.authentication.TenantAuthentication',
     ),
-    'DEFAULT_THROTTLE_CLASSES': (
-        'crud.throttling.BurstRateThrottle',
-        'crud.throttling.SustainedRateThrottle'
-    ),
     'DEFAULT_THROTTLE_RATES': {
-        'burst': '6/min',
-        'sustained': '100/day'
+        'burst': '100/day'
     }
 }
 
