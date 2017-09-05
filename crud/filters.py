@@ -15,6 +15,7 @@ class QuestionFilter(django_filters.FilterSet):
             'contains',
             'in',
             'startswith',
+            'istartswith',
             'icontains',
         ]
         fields = {
